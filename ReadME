@@ -1,0 +1,23 @@
+# Starbucks Webpage
+
+This README file provides instructions for running the Starbucks webpage locally on your computer. The webpage is a simple representation of Starbucks and includes sections such as "Home," "About," and "Contact."
+
+## Getting Started
+
+Follow these steps to set up and run the webpage on your local machine.
+
+### Prerequisites
+
+You need the following software installed on your computer:
+
+- [Node.js](https://nodejs.org/) (for running a simple local server)
+- A modern web browser (e.g., Chrome, Firefox, Edge)
+
+### Installation
+
+1. Clone this repository to your local machine using Git:
+
+   ```shell
+   git clone https://github.com/your-username/your-starbucks-webpage.git
+
+###API used is https://api.sampleapis.com/coffee/hot'

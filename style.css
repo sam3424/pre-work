@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;;
+}
+
+.image_Logo {
+    padding-top: 0px;
+    height: 6rem;
+    border-radius: 5px;     
+}
+#fixed_position {
+    position: fixed;
+   top:0;
+    z-index: 100;
+}
+.nav-item:hover{
+   background-color: #cbd7da;
+}
+
+#header {
+    padding: 15px 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar-nav .nav-link {
+    color:rgb(30, 57, 50);
+    font-size: 24px;
+    margin: 0 20px;
+    transition: color 0.3s;
+    padding: 10px;
+ 
+      
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dcedf2;
+}
+
+.navbar-toggler {
+    border-color: #99bfe3;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+       
+        margin: 10px 0;
+    }
+}
+#card-container {
+display: flex;
+}
+ .title_heading {
+     font-family: "Arial", sans-serif;
+     
+     font-size: 50px;
+     font-weight: bold;
+     border-radius: 7px;
+     color:rgb(0, 98, 65);
+     text-transform: uppercase;
+     text-align: center;
+     text-shadow: 4px 4px 4px #BBF2D2;
+     margin-bottom: 20px;
+ }
+
+.card {
+    background-color: rgb(245, 244, 244);
+    transition:all 0.4 s;
+    position: relative;
+ width: 20%;
+    margin-right: 10px;
+    height: 58vh;
+    border-radius: 5px;
+}
+.card :hover{
+    transform: scale(1.1);
+    background-color:#d5f2e1;
+
+    transition: .2s;
+
+}
+.menu-img{
+    border-radius: 50px;
+        height: 25vh;
+            background-color: rgb(245, 244, 244);
+                transition: all 0.4 s;
+                position: relative;
+                width: 20%;
+                margin-right: 10px;
+                height: 40vh;
+       
+}
+.menu-img :hover {
+    transform: scale(1.30);
+    background-color: rgb(171, 230, 243);
+
+    transition: .5s;
+
+}
+ .card-img{
+  
+    height: 25vh;
+ }
+.ingredients{
+    color: rgb(0, 98, 65);
+    font-weight: bold;
+  
+}
+#home{
+    height: 100vh;
+    align-items: center;
+}
+.about-section{
+    height: 100vh;
+        align-items: center;
+   
+}
+.contact-section {
+    height: 100vh;
+    align-items: center;
+    padding-top: 50px;
+}
+.footer {
+    background-color:rgb(0, 98, 65);
+    display: flex;
+    padding: 15px 0;
+}
